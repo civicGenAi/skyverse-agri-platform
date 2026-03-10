@@ -57,8 +57,8 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-cream/10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="font-body text-xs text-cream/50">© 2025 Skyverse Solutions. All rights reserved.</p>
-          <p className="font-body text-xs text-cream/50">Developed by Dany Tech</p>
+          <p className="font-body text-xs text-cream/50">© 2026 Skyverse Solutions. All rights reserved.</p>
+          <p className="font-body text-xs text-cream/50">Designed & Developed by Skyverse Solutions</p>
         </div>
       </div>
     </footer>

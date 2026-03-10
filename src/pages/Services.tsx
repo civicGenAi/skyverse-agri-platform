@@ -6,6 +6,7 @@ import HeroBanner from "@/components/HeroBanner";
 import SectionHeading from "@/components/SectionHeading";
 import { Button } from "@/components/ui/button";
 import { Wrench, ShoppingCart, Settings, BookOpen, Phone, Truck, Cog, Check, Star } from "lucide-react";
+import heroServicesImg from "@/assets/hero-services.jpg";
 
 const tabs = [
   {
@@ -55,7 +56,9 @@ export default function Services() {
     <PageTransition>
       <HeroBanner
         title="Our Services"
+        subtitle="Innovative solutions designed to empower Tanzanian peanut farmers"
         variant="amber"
+        bgImage={heroServicesImg}
         breadcrumb={[{ label: "Home", path: "/" }, { label: "Services", path: "/services" }]}
       />
 

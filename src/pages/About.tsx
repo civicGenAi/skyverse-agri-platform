@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import PageTransition from "@/components/PageTransition";
 import HeroBanner from "@/components/HeroBanner";
 import SectionHeading from "@/components/SectionHeading";
+import heroAboutImg from "@/assets/hero-about.jpg";
 import { Target, Eye, ArrowRight } from "lucide-react";
 
 const timeline = [
@@ -34,6 +35,8 @@ export default function About() {
     <PageTransition>
       <HeroBanner
         title="About Skyverse Solutions"
+        subtitle="Rooted in Tanzania, growing for the future"
+        bgImage={heroAboutImg}
         breadcrumb={[{ label: "Home", path: "/" }, { label: "About", path: "/about" }]}
       />
 

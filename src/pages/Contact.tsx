@@ -5,6 +5,7 @@ import HeroBanner from "@/components/HeroBanner";
 import SectionHeading from "@/components/SectionHeading";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, MapPin, Clock, ChevronDown, Send } from "lucide-react";
+import heroContactImg from "@/assets/hero-contact.jpg";
 
 const faqs = [
   { q: "How does the rental work?", a: "Our rental service charges 2,000 TZS per sack processed. We deliver the machine to your location, provide an operator, and collect it after your processing is complete. Flexible rental periods are available for individual farmers and cooperatives." },
@@ -29,6 +30,8 @@ export default function Contact() {
     <PageTransition>
       <HeroBanner
         title="Get In Touch"
+        subtitle="We'd love to hear from you"
+        bgImage={heroContactImg}
         breadcrumb={[{ label: "Home", path: "/" }, { label: "Contact", path: "/contact" }]}
       />
 
