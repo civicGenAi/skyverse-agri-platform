@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import PageTransition from "@/components/PageTransition";
 import HeroBanner from "@/components/HeroBanner";
 import { ArrowRight } from "lucide-react";
+import heroBlogImg from "@/assets/hero-blog.jpg";
 
 const categories = ["Technology", "Community", "Innovation", "Farming Tips", "News", "Impact"];
 
