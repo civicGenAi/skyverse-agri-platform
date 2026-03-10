@@ -35,6 +35,8 @@ export default function About() {
     <PageTransition>
       <HeroBanner
         title="About Skyverse Solutions"
+        subtitle="Rooted in Tanzania, growing for the future"
+        bgImage={heroAboutImg}
         breadcrumb={[{ label: "Home", path: "/" }, { label: "About", path: "/about" }]}
       />
 

@@ -56,7 +56,9 @@ export default function Services() {
     <PageTransition>
       <HeroBanner
         title="Our Services"
+        subtitle="Innovative solutions designed to empower Tanzanian peanut farmers"
         variant="amber"
+        bgImage={heroServicesImg}
         breadcrumb={[{ label: "Home", path: "/" }, { label: "Services", path: "/services" }]}
       />
 

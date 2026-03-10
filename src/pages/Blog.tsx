@@ -23,6 +23,8 @@ export default function Blog() {
     <PageTransition>
       <HeroBanner
         title="From the Field"
+        subtitle="Stories, insights, and updates from Skyverse Solutions"
+        bgImage={heroBlogImg}
         breadcrumb={[{ label: "Home", path: "/" }, { label: "Blog", path: "/blog" }]}
       />
 

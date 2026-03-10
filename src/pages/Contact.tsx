@@ -30,6 +30,8 @@ export default function Contact() {
     <PageTransition>
       <HeroBanner
         title="Get In Touch"
+        subtitle="We'd love to hear from you"
+        bgImage={heroContactImg}
         breadcrumb={[{ label: "Home", path: "/" }, { label: "Contact", path: "/contact" }]}
       />
 
