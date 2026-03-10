@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import PageTransition from "@/components/PageTransition";
 import HeroBanner from "@/components/HeroBanner";
 import SectionHeading from "@/components/SectionHeading";
+import heroAboutImg from "@/assets/hero-about.jpg";
 import { Target, Eye, ArrowRight } from "lucide-react";
 
 const timeline = [
